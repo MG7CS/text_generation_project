@@ -2,44 +2,6 @@
 
 This project involves training a deep learning model for text generation using a dataset of Shakespeare's works. The model is built using TensorFlow and Keras and can generate new text based on an initial input string.
 
-## Project Structure
-
-\`\`\`
-text_generation_project/
-
-├── data/
-
-│   └── input.txt              # Raw text data (downloaded by the script)
-
-├── checkpoints/
-
-│   └── ckpt_{epoch}.weights.h5 # Directory for storing model checkpoints
-
-├── src/
-
-│   ├── __init__.py            # Makes src a Python package
-
-│   ├── preprocess.py          # Script for data preprocessing
-
-│   ├── model.py               # Script for building the model
-
-│   ├── train.py               # Script for training the model
-
-│   ├── generate.py            # Script for text generation
-
-│   └── utils.py               # Utility functions
-
-├── notebooks/
-│   └── exploration.ipynb      # Jupyter notebook for data exploration and experiments
-
-├── download_data.py           # Script to download the data
-
-├── requirements.txt           # Dependencies
-
-└── README.md                  # Project overview and instructions
-
-\`\`\`
-
 ## Setup Instructions
 
 ### Prerequisites
